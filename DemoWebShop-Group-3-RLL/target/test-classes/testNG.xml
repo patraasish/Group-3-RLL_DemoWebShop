@@ -1,0 +1,11 @@
+<suite name="test1" verbose="1">
+<listeners>
+<listener class-name="failedTestcases.AnnotationTransformer"/>
+<listener class-name="utilities.MyListeners"/>
+</listeners>
+<test name="testdemowebshop001">
+<classes>
+<class name="runner.DemoWebShopRunner"></class>
+</classes>
+</test>
+</suite>

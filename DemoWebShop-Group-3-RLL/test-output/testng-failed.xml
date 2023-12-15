@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test1]">
+  <listeners>
+    <listener class-name="failedTestcases.AnnotationTransformer"/>
+    <listener class-name="utilities.MyListeners"/>
+  </listeners>
+  <test thread-count="5" name="testdemowebshop001(failed)">
+    <classes>
+      <class name="runner.DemoWebShopRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.DemoWebShopRunner -->
+    </classes>
+  </test> <!-- testdemowebshop001(failed) -->
+</suite> <!-- Failed suite [test1] -->
